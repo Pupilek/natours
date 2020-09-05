@@ -1,0 +1,36 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Learning node, express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pupilek/natours.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongoDB",
+    "javascript",
+    "CSS",
+    "HTML",
+    "postman",
+    "etc."
+  ],
+  "author": "Andrii Loburets, Jonas Schmedtmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pupilek/natours/issues"
+  },
+  "homepage": "https://github.com/Pupilek/natours#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {}
+}
